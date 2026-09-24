@@ -1,5 +1,8 @@
 # Учебные задачи на Kotlin
 
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Education](https://img.shields.io/badge/Учебный_проект-333333)
+
 Небольшая подборка учебных задач и примеров на **Kotlin**: базовый синтаксис, коллекции, логические операции, функции и основы ООП.
 
 ## Что есть в репозитории
