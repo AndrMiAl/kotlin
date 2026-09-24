@@ -3,54 +3,40 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Education](https://img.shields.io/badge/Учебный_проект-333333)
 
-Небольшая подборка учебных задач и примеров на **Kotlin**: базовый синтаксис, коллекции, логические операции, функции и основы ООП.
+Подборка самостоятельных учебных задач на **Kotlin**: работа с числами и строками, коллекции, функции высшего порядка и основы ООП.
 
-## Что есть в репозитории
+## Задачи
 
-По файлам представлены отдельные упражнения:
+| Файл | Что демонстрирует |
+|---|---|
+| [`01-max-digit-divisible-by-3.kt`](./01-max-digit-divisible-by-3.kt) | Фильтрация цифр и поиск максимума |
+| [`02-first-char-shortest-even-word.kt`](./02-first-char-shortest-even-word.kt) | Строки, коллекции и поиск минимума |
+| [`03-max-digit-by-predicate.kt`](./03-max-digit-by-predicate.kt) | Функция высшего порядка с предикатом |
+| [`04-count-unique-digit-numbers.kt`](./04-count-unique-digit-numbers.kt) | `Set` и проверка уникальности цифр |
+| [`05-bitwise-or-first-digits.kt`](./05-bitwise-or-first-digits.kt) | Побитовое `OR` и преобразование коллекций |
+| [`06-pythagorean-triple.kt`](./06-pythagorean-triple.kt) | Последовательности, тройки и условный поиск |
+| [`07-student-median-ranking.kt`](./07-student-median-ranking.kt) | Медиана, сортировка и составной компаратор |
+| [`08-max-nullable-functions.kt`](./08-max-nullable-functions.kt) | Nullable-значения и функции как параметры |
+| [`09-date-plus-two-months.kt`](./09-date-plus-two-months.kt) | Календарная логика и високосный год |
+| [`10-max-odd-digit.kt`](./10-max-odd-digit.kt) | Цикл и обработка цифр числа |
+| [`11-ebook-oop.kt`](./11-ebook-oop.kt) | Интерфейсы, наследование, сервис и presenter |
+| [`12-mutual-funds-decorator.kt`](./12-mutual-funds-decorator.kt) | Делегирование и паттерн Decorator |
 
-- поиск и работа с делителями;
-- обработка чисел и знаков;
-- работа с `Set`;
-- логические операции;
-- функции;
-- несколько вариантов учебных заданий;
-- примеры объектно-ориентированного программирования.
-
-Основные файлы:
-
-```text
-Main.kt
-OOP.kt
-OOP+1.kt
-hard function.kt
-1. max del 3.kt
-2 num.kt
-2. first sign.kt
-3. Set num.kt
-4. OR.kt
-5 задание.kt
-5.d.kt
-last month.kt
-```
+Каждый файл — отдельный небольшой пример со своей точкой входа `main`.
 
 ## Запуск
 
 Если установлен Kotlin compiler:
 
 ```bash
-kotlinc Main.kt -include-runtime -d app.jar
+kotlinc 01-max-digit-divisible-by-3.kt -include-runtime -d app.jar
 java -jar app.jar
 ```
 
-Для другого задания замените `Main.kt` на нужный файл.
+Для другого задания замените имя `.kt`-файла в команде.
 
-Также проект удобно открывать в **IntelliJ IDEA** и запускать отдельные файлы прямо из IDE.
+Также репозиторий удобно открыть в **IntelliJ IDEA** и запускать примеры по отдельности.
 
 ## Назначение
 
-Репозиторий хранит учебные решения и примеры, написанные во время изучения Kotlin.
-
-## Чистота репозитория
-
-Временные backup-файлы редактора вида `*.kt~` не хранятся в Git.
+Репозиторий показывает прогресс в изучении Kotlin: от базового синтаксиса и коллекций до функций высшего порядка и объектно-ориентированных примеров.
