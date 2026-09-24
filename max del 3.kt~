@@ -1,4 +1,0 @@
-fun main()=println(readln().map{it-'0'}.filter{it%3==0}.maxOrNull()?:-1)
-
-
-
